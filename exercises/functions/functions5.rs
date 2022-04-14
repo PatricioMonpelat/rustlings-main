@@ -4,10 +4,11 @@
 // I AM NOT DONE
 
 fn main() {
-    let answer = square(3);
+    let num: i32 = 3;
+    let answer = square(num);
     println!("The answer is {}", answer);
 }
 
 fn square(num: i32) -> i32 {
-    num * num;
+    return num * num;
 }
