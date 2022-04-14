@@ -8,6 +8,11 @@ pub fn bigger(a: i32, b: i32) -> i32 {
     // - another function call
     // - additional variables
     // Execute `rustlings hint if1` for hints
+    if a > b {
+        return a;
+    }else{
+        return b;
+    }
 }
 
 // Don't mind this for now :)
@@ -17,11 +22,11 @@ mod tests {
 
     #[test]
     fn ten_is_bigger_than_eight() {
-        assert_eq!(10, bigger(10, 8));
+         return assert_eq!(10, bigger(10, 8));
     }
 
     #[test]
-    fn fortytwo_is_bigger_than_thirtytwo() {
-        assert_eq!(42, bigger(32, 42));
+    fn fortytwo_is_bigger_than_thirtytwo()  {
+        return assert_eq!(42, bigger(32, 42));
     }
 }
