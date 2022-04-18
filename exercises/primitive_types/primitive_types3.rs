@@ -5,8 +5,9 @@
 // I AM NOT DONE
 
 fn main() {
-    let a = ???
-
+    let mut a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16];
+   
+   
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
     } else {
