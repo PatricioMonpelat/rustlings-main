@@ -2,7 +2,6 @@
 // Create an array with at least 100 elements in it where the ??? is.
 // Execute `rustlings hint primitive_types3` for hints!
 
-// I AM NOT DONE
 
 fn main() {
     let mut a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16];
